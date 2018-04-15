@@ -11,11 +11,19 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint src"
   },
   "description": "This a simple community outreach app.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-watch": "^3.1.3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
