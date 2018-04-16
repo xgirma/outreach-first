@@ -10,17 +10,13 @@ class Outreach extends Component {
   };
 
   setLanguageToEnglish = () => {
-    // eslint-disable-next-line no-unused-vars
-    this.setState(state => ({ locale: 'EN' }));
-    // eslint-disable-next-line no-unused-vars
-    this.setState(state => ({ translate: new Translate('EN').translate }));
+    this.setState(() => ({ locale: 'EN' }));
+    this.setState(() => ({ translate: new Translate('EN').translate }));
   };
 
   setLanguageToAmharic = () => {
-    // eslint-disable-next-line no-unused-vars
-    this.setState(state => ({ locale: 'AM' }));
-    // eslint-disable-next-line no-unused-vars
-    this.setState(state => ({ translate: new Translate('AM').translate }));
+    this.setState(() => ({ locale: 'AM' }));
+    this.setState(() => ({ translate: new Translate('AM').translate }));
   };
 
   render() {
