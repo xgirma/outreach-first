@@ -24,7 +24,7 @@ class Outreach extends Component {
       <div className="App">
         <button role="link" onClick={this.setLanguageToAmharic}>አማርኛ</button>
         <button role="link" onClick={this.setLanguageToEnglish}>English</button>
-        <p>{this.state.translate('TITLE')}</p>
+        <p>{this.state.translate('AHADU')}</p>
       </div>
     );
   }
