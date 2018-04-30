@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../style/index.css';
+import './donate.css';
 
-class index extends Component {
+class Donate extends Component {
   static propTypes = {};
 
   static defaultProps = {};
 
-  displayName = 'index';
+  displayName = 'donate';
 
   state = {};
 
   render() {
     return (
-      <div className="container-index">
-        {'Hello world'}
+      <div className="donate-container">
+        {'Blog: Hello Donate'}
       </div>
     );
   }
 }
 
-export default index;
+export default Donate;

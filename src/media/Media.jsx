@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../style/index.css';
+import './media.css';
 
-class index extends Component {
+class Media extends Component {
   static propTypes = {};
 
   static defaultProps = {};
 
-  displayName = 'index';
+  displayName = 'media';
 
   state = {};
 
   render() {
     return (
-      <div className="container-index">
-        {'Hello world'}
+      <div className="media-container">
+        {'Hello world: media'}
       </div>
     );
   }
 }
 
-export default index;
+export default Media;

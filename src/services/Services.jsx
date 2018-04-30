@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../style/index.css';
+import './services.css';
 
-class index extends Component {
+class Services extends Component {
   static propTypes = {};
 
   static defaultProps = {};
 
-  displayName = 'index';
+  displayName = 'services';
 
   state = {};
 
   render() {
     return (
-      <div className="container-index">
-        {'Hello world'}
+      <div className="services-container">
+        {'Hello world: services'}
       </div>
     );
   }
 }
 
-export default index;
+export default Services;
